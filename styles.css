@@ -1,0 +1,116 @@
+* {
+    font-family: "Roboto", sans serif;
+}
+
+.hero-section, .footer {
+    background: #1F2937;
+}
+
+
+
+/* HEADER */
+
+logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+
+/* HERO SECTION */
+
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.top-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.top-left-content p, li a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a.button3 {
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+a.button3:hover {
+    background-color:#156797;
+    }
+
+.hero-image {
+    width: 500px;
+}
+
+
+
+/* CARD SECTION */
+
+.card img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+
+    border-radius: 50%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+/* QUOTE SECTION */
+
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.quote-section p {
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+
+
+/* CALL TO ACTION */
+
+
+/* FOOTER SECTION */
