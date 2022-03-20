@@ -164,7 +164,8 @@ a.button3:hover {
     width: 50%;
     background-color: #3882f3;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
     padding: 25px;
 }
 
@@ -185,6 +186,8 @@ a.btn{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 25px;
+    width: 80px;
 }
 
 .btn:hover {
